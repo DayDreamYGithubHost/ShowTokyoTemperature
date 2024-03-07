@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-image: url("https://www.icegif.com/wp-content/uploads/2023/06/icegif-39.gif");
+  background-size: cover;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+}
+
+#weatherbox {
+  height: 50%;
+  width: 50%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(194, 53%, 90%);
+  border-radius: 10%;
+  text-align: center;
+}
+h1 {
+  padding-top: 10%;
+}
